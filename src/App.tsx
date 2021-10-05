@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+
+import { GlobalStyle } from "./styles/global";
+import {Card,Painel} from "./styles/style"
+import Logo from "./assets/logo.svg"
+import Background from "./assets/background.svg"
+import Notebook from "./assets/notebook.svg"
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+   <>
+     <GlobalStyle />
+      <Card>
+      <Painel>
+        <img  src={Logo} alt="" />
+      <h3>Bem vindo ao <span>Painel</span></h3>
+      </Painel>
+      <img className="fundo" src={Background} />
+      <img className="notebook" src={Notebook} />
+      <input type="text" className="input1" placeholder="Digite seu e-mail"/>
+      <input type="text" placeholder="Digite sua senha" />
+       <button type="button">Acessar</button>
+       
+       </Card>
+       </>
+
+       
   );
 }
 
-export default App;
