@@ -1,6 +1,6 @@
 import styled from "styled-components";
 //#FF6C22;
-
+import icon from "../assets/icon.svg"
 
 
 export const Card = styled.div`
@@ -26,8 +26,14 @@ export const Card = styled.div`
     }
     .input1{
         margin-top: 30%;
+       
+        
     }
-    
+    .icon{
+            position: absolute;
+            bottom: 137px;
+            left: 350px;
+        }
    
     input{
     display :flex ;
@@ -62,13 +68,18 @@ export const Card = styled.div`
         .fundo{
             display: none;
         }
+        .icon{
+            display: none;
+        }
         input{
             position: absolute;
             margin-left:10rem;
             left:-120px;
             margin-top: 14rem;
             
+            
         }
+        
         .input1{
             margin-top: 25%;
         }

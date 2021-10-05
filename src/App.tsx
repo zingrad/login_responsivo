@@ -5,6 +5,7 @@ import {Card,Painel} from "./styles/style"
 import Logo from "./assets/logo.svg"
 import Background from "./assets/background.svg"
 import Notebook from "./assets/notebook.svg"
+import Icon from "./assets/icon.svg"
 export function App() {
   return (
     
@@ -17,7 +18,8 @@ export function App() {
       </Painel>
       <img className="fundo" src={Background} />
       <img className="notebook" src={Notebook} />
-      <input type="text" className="input1" placeholder="Digite seu e-mail"/>
+      <img className="icon" src={Icon} />
+      <input type="text"  className="input1" placeholder="Digite seu e-mail"/>
       <input type="text" placeholder="Digite sua senha" />
        <button type="button">Acessar</button>
        
