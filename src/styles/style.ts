@@ -1,6 +1,6 @@
 import styled from "styled-components";
 //#FF6C22;
-import icon from "../assets/icon.svg"
+
 
 
 export const Card = styled.div`
@@ -14,6 +14,7 @@ export const Card = styled.div`
     box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
 
+    
     .notebook{
         position: absolute;
         top: 6.25rem;
@@ -58,7 +59,7 @@ export const Card = styled.div`
         align-items: center;
         position: absolute;
         left:0;
-        width: 57vh;
+        width: 100%;
         
         
         .notebook{
@@ -75,13 +76,14 @@ export const Card = styled.div`
             position: absolute;
             margin-left:10rem;
             left:-120px;
-            margin-top: 14rem;
+            margin-top: 16rem;
             
             
         }
         
+        
         .input1{
-            margin-top: 25%;
+            margin-top: 115px;
         }
         button{
             position: absolute;

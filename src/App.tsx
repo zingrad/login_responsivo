@@ -16,9 +16,9 @@ export function App() {
         <img  src={Logo} alt="" />
       <h3>Bem vindo ao <span>Painel</span></h3>
       </Painel>
-      <img className="fundo" src={Background} />
-      <img className="notebook" src={Notebook} />
-      <img className="icon" src={Icon} />
+      <img className="fundo" alt="fundo" src={Background} />
+      <img className="notebook" alt="notebook" src={Notebook} />
+      <img className="icon" alt="icone" src={Icon} />
       <input type="text"  className="input1" placeholder="Digite seu e-mail"/>
       <input type="text" placeholder="Digite sua senha" />
        <button type="button">Acessar</button>
