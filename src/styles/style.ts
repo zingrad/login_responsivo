@@ -32,8 +32,8 @@ export const Card = styled.div`
     }
     .icon{
             position: absolute;
-            bottom: 137px;
-            left: 350px;
+            bottom: 27%;
+            left: 41%;
         }
    
     input{
@@ -54,7 +54,13 @@ export const Card = styled.div`
         border-radius: 5px;
     }
 
-    @media (max-width:768px){
+     
+
+
+
+        //tablet
+
+    @media (max-width:798px){
         display: flex;
         align-items: center;
         position: absolute;
@@ -70,12 +76,16 @@ export const Card = styled.div`
             display: none;
         }
         .icon{
-            display: none;
+            position: relative;
+            top: 25%;
+           left: 29%;
+           z-index: 1;
+            
         }
         input{
             position: absolute;
             margin-left:10rem;
-            left:-120px;
+            left:90px;
             margin-top: 16rem;
             
             
@@ -87,9 +97,61 @@ export const Card = styled.div`
         }
         button{
             position: absolute;
-            left: 10px;
+            left: 250px;
             bottom: 25px;
         }
+
+           
+            
+        
+
+           //mobile
+    @media (max-width:600px){
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left:0;
+        width: 100%;
+        
+        
+        .notebook{
+            display: none;
+            
+        }
+        .fundo{
+            display: none;
+        }
+        .icon{
+            position: relative;
+            top: 25%;
+           left: 15%;
+           z-index: 1;
+        
+        }
+        input{
+            position: absolute;
+            margin-left:10rem;
+            left:-40px;
+            margin-top: 16rem;
+            
+            
+        }
+        
+        
+        .input1{
+            margin-top: 115px;
+        }
+        button{
+            position: absolute;
+            left: 90px;
+            bottom: 25px;
+        }
+
+       
+    }
+
+   
+
         
     }
 
@@ -122,17 +184,36 @@ h3{
         top: 5rem;
         margin-left: 6rem;
     }
+   
 
-    @media (max-width:768px){
+    //tablet
+    @media (max-width:798px){
         img{
             position: absolute;
             top: 2;
-           left:-60px;
+           left:150px;
         }
         h3{
             position: relative;
             top:-20px;
+            left: 210px;
         }
+
+         //mobile
+    @media (max-width:600px){
+        img{
+            position: absolute;
+            top: 2;
+           left:10px;
+        }
+        h3{
+            position: relative;
+            top:-20px;
+            left: 60px;
+        }
+       
+    }
+
        
     }
         `
