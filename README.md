@@ -3,8 +3,10 @@
 ## Nesse projeto fui desafiado a criar uma  página de login adaptavel para mobile 
 <br>
 
+
 ### Esse desafio tinha o intuito de avaliar os meus conhecimentos básicos de Front-End com React.js
 
+#### Diferencial Foi o Typescript
 ### Tecnologias Utilizadas
 
 <ul>
